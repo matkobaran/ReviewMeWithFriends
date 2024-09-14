@@ -1,4 +1,6 @@
-﻿namespace ReviewMeWithFriends;
+﻿using ReviewMeWithFriends.Views;
+
+namespace ReviewMeWithFriends;
 
 public partial class MainPage : ContentPage
 {
@@ -19,6 +21,8 @@ public partial class MainPage : ContentPage
 			CounterBtn.Text = $"Clicked {count} times";
 
 		SemanticScreenReader.Announce(CounterBtn.Text);
+		Navigation.PushAsync(new Menu());
+
 	}
 }
 

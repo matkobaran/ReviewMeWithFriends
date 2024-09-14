@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ReviewMeWithFriends.Views.NewReview"
+             Title="NewReview">
+    <VerticalStackLayout>
+         <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+           
+            <Label 
+            Text="New review"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+            <Label 
+            Text="Choose restaurant: "
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Entry />
+
+            <Label 
+            Text="Drinks: "
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Entry />
+            
+            <Button
+                x:Name="SaveBtn"
+                Text="Save"
+                Clicked="OnSaveClicked"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="MenuBtn"
+                Text="Menu"
+                Clicked="OnMenuClicked"
+                HorizontalOptions="Center" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+    </VerticalStackLayout>
+</ContentPage>
