@@ -1,8 +1,8 @@
 ﻿namespace ReviewMeWithFriends.Views;
 
-public partial class NewPage1 : ContentPage
+public partial class Login : ContentPage
 {
-	public NewPage1()
+	public Login()
 	{
 		InitializeComponent();
 	}
