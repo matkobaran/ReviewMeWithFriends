@@ -27,7 +27,37 @@
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
             <Entry />
-            
+
+            <Label 
+            Text="Food: "
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Entry />
+
+            <Label 
+            Text="Atmosphere: "
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Entry />
+
+            <Label 
+            Text="Prices: "
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Entry />
+
+            <Label 
+            Text="Staff: "
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Entry />
+
+            <Label 
+            Text="Cleanliness: "
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Entry />
+
             <Button
                 x:Name="SaveBtn"
                 Text="Save"

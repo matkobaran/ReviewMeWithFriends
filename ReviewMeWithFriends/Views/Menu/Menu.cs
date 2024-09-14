@@ -12,7 +12,7 @@ public partial class Menu : ContentPage
 	}
 	private async void OnRestaurantClicked(object sender, EventArgs e)
 	{
-		await Navigation.PushAsync(new Restaurant());
+		await Navigation.PushAsync(new Restaurants());
 	}
 	private async void OnNewReviewClicked(object sender, EventArgs e)
 	{	

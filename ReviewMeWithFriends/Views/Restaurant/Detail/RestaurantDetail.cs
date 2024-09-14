@@ -1,8 +1,8 @@
 ﻿namespace ReviewMeWithFriends.Views;
 
-public partial class Restaurant : ContentPage
+public partial class RestaurantDetail : ContentPage
 {
-	public Restaurant()
+	public RestaurantDetail()
 	{
 		InitializeComponent();
 	}

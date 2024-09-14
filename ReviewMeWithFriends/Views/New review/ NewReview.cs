@@ -6,7 +6,10 @@ public partial class NewReview : ContentPage
 	{
 		InitializeComponent();
 		// new restaurant
-		// choose restaurant
+		// click choose restaurant and then you have new window:
+			// eathier you can find restaurant in the menu or you can add new restaurant
+				// if you choose, it will return to the review and you finish rating
+				// or you create a new restaurant and then go back to rating
 		// add review 
 	}
 	private async void OnMenuClicked(object sender, EventArgs e)
