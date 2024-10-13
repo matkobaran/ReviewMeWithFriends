@@ -15,8 +15,39 @@
             Text="Restaurant"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+<Label 
+            Text="Meno: Mpja pekna reštika"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+<Label 
+            Text="Adresa: Brno to je"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
 
+            <Label 
+            Text="Hodnotenia: "
+            BackgroundColor="Yellow"
+            TextColor="Black"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
 
+            <Label 
+            Text="Fero: 3.8 "
+            Background="Green"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Label 
+            Text="Hanka: 4.4 "
+                        Background="Green"
+
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+            <Button
+                x:Name="AddReviewBtn"
+                Text="Aj ja chcem hodnotiť"
+                Clicked="OnAddReviewClicked"
+                HorizontalOptions="Center" />
             <Button
                 x:Name="MenuBtn"
                 Text="Menu"

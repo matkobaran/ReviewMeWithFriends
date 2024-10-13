@@ -10,4 +10,8 @@ public partial class RestaurantDetail : ContentPage
 	{	
 		await Navigation.PopAsync();
 	}
+	private async void OnAddReviewClicked(object sender, EventArgs e)
+	{	
+		await Navigation.PushAsync(new NewReview());
+	}
 }
